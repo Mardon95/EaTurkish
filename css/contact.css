@@ -1,0 +1,174 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Contact Us */
+.Contact_container {
+    padding: 70px 0 130px;
+}
+
+.Contact_title {
+    color: #242424;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.Frame{
+    display: flex;
+    margin:auto;
+}
+.content{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.content_home{
+    font-size: 22px;
+    color: #B0B0B0;
+    transition: .5s;
+}
+.content_contact-us{
+    font-size: 22px;
+    color: #BB2339;
+}
+.content_home:hover{
+    color: #BB2339;
+}
+.Contact_adress {
+    display: flex;
+    justify-content: space-between;
+    margin: 57px 0 110px;
+    column-gap: 40px;
+}
+
+.Contact_cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.Contact_card {
+    padding: 25px 20px;
+    display: flex;
+    column-gap: 25px;
+    border-radius: 14px;
+    border: 1px solid #BB2339;
+    background: #FFF;
+    align-items: center;
+}
+.Contact_img {
+    background-color: #f4f4f4;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contact-img {
+    color: #242424;
+}
+
+.Contact_card-title {
+    color: #242424;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 34px;
+}
+
+.Contact_card-text {
+    color: #242424;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Contact_registratsiya {
+    border-radius: 14px;
+    border: 1px solid #BB2339;
+    padding: 40px;
+}
+
+.Contact_registratsiya-title1 {
+    color: #242424;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 34px;
+}
+
+.Contact_registratsiya-text {
+    color: #242424;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: .7;
+    margin: 16px 0 40px;
+    max-width: 560px;
+}
+
+.Contact_registratsiya-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 15px;
+    margin-bottom: 15px;
+}
+
+.Contact_registratsiya-input {
+    border-radius: 12px;
+    border: 1px solid #BB2339;
+    padding: 20px;
+    max-width: 360px;
+    width: 100%;
+}
+
+.Contact_registratsiya-text2 {
+    border-radius: 12px;
+    border: 1px solid #BB2339;
+    padding: 20px;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 150px;
+}
+
+.Contact_registratsiya-btn {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 39px;
+    background: #BB2339;
+    padding: 18px 45px;
+}
+
+.Contact_registratsiya-title2 {
+    color: #000;
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 1.14px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.Contact_registratsiya-location {
+    display: flex;
+    justify-content: center;
+}
+/* Contact Us */

@@ -1,0 +1,130 @@
+@media (max-width: 1440px) {
+    .header_container{
+        overflow-wrap: normal;
+    }
+      .section2_li{
+        max-width: 400px;
+        width: 100%;
+        padding: 10px 40px;
+      }
+      .section2_items{
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 30px;
+        justify-content: center;
+      }
+}
+@media (max-width: 1320px) {}
+@media (max-width: 1290px) {
+    .header_container{
+        overflow: hidden;
+    }
+      .section2_items{
+        column-gap: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 25px;
+      }
+     
+      .section1_dishes{
+         display: flex;
+        flex-wrap: wrap;
+        row-gap: 30px;
+        justify-content: center;
+      }
+      .section1_dish{
+        max-width: 520px;
+        width: 100%;
+      }
+      .section1_dish-title{
+        display: flex;
+        text-align: center;
+      }
+      .section1-img{
+        margin: auto;
+      }
+      .section1_dish-title{
+        margin: auto;
+      }
+      .section1_price{
+     padding: 10px;
+      margin: auto;
+       
+      }
+           
+     .section3_cards{
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 30px;
+      justify-content: center;
+     }
+     .section3_card{
+      max-width: 420px;
+      width: 100%;
+    }
+    .section1-img{
+      display: flex;
+      justify-content: center;
+    } 
+    .scissors{
+      z-index: -1;
+    }
+    
+}
+@media (max-width: 1170px) {
+  .section4_cards{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+  .section4_card-title{
+    margin: auto;
+  }
+  .section4_card-text{
+   text-align: justify;
+  }
+  .section4_ul{
+    margin: auto;
+  }
+   .Instagram_logo{
+      padding-left: 50px;
+
+    }
+  
+  .section5_card{
+    display: flex;
+    flex-direction: column;
+  }
+  .section5_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 30px;
+  }
+  .section5_img{
+  max-width: 410px;
+  height: 352px;
+  width: 100%;
+    
+  }
+  .section5_text{
+     font-size: 13px;
+  }
+
+  
+  
+}
+@media (max-width: 1140px) {}
+@media (max-width: 1024px) {}
+@media (max-width: 992px) {}
+@media (max-width: 850px) {}
+@media (max-width: 768px) {}
+@media (max-width: 734px) {}
+@media (max-width: 684px) {}
+@media (max-width: 667px) {}
+@media (max-width: 576px) {}
+@media (max-width: 480px) {}
+@media (max-width: 412px) {}
+@media (max-width: 375px) {}
+@media (max-width: 320px) {} 
